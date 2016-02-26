@@ -16,13 +16,21 @@ body header
 background: blue; /*fondo*/
 border: 1px solid black; /*alrededor*/
 border-radius: 10px;/*esquinas */
+box-shadow: 5px 5px black;
 color: white; /*letra*/
 }
 header h1
 {
 	text-align: center;
+	text-shadow: 5px 5px 8px black; /*tercer parametro intensidad de la sombra*/
 
-
+}
+header img
+{
+	float:right;
+	margin-right: 20px;
+	margin-top: 25px;
+	width:80px;
 }
 
 header nav ul li 
@@ -30,9 +38,10 @@ header nav ul li
 /*	border: 1px solid yellow;*/
 background: white;
 border-radius: 5px;
+box-shadow: 5px 5px black; /*sombra a las cajitas*/
 color: black;
 display: inline-block;   /*rompe cajas*/
-margin: 0px 50px;
+margin: 0px 30px;
 padding: 10px;
 
 
@@ -44,5 +53,19 @@ header nav ul li:hover
 	background: black;
 	color: white;
 
+}
+
+/*Aquì van los Id´s*/
+#seccion1
+{
+	border:10px solid red;
+
+}
+#seccion1 article
+{
+	border: 10px solid black;
+	display: inline-block;
+	vertical-align: top;
+	width: 47.8%;
 }
 
