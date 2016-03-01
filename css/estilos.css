@@ -43,7 +43,7 @@ color: black;
 display: inline-block;   /*rompe cajas*/
 margin: 0px 30px;
 padding: 10px;
-
+transition:background-color 0.5s linear; /*animacion de tiempo de cambiar de sobra al estar sobre el boton con el mouse*/
 
 
 }
