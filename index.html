@@ -3,14 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Primer Página HTML5</title>
+	<!-- primero va la fuente de google de letra al ultimo la de nosotros nuestra hoja de   -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> 
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200|Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/estilos.css">
+
 
 </head>
 <body>
 	<header>
 		<img src="img/logoitc.png" alt="">
-		<h1>
-			Mi aplicación
+		<h1> 
+			<span class="icon-home">Mi aplicacion</span>
+			
 		</h1>
 			<nav>
 					<ul>
@@ -42,7 +50,7 @@
 		<input type="radio"  name="genero" value="f" selected>Femenino
 		<input type="radio" name="genero" value="m">Masculino
 		
-		<input type="submit" required>
+		<input type="submit" class="btn btn-primary"required>
 		<select name="genero2" id="">
 			<option value="">Femenino</option>
 			<option value="">Masculino</option>

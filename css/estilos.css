@@ -21,9 +21,10 @@ color: white; /*letra*/
 }
 header h1
 {
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	text-shadow: 5px 5px 8px black; /*tercer parametro intensidad de la sombra*/
-
+	color: purple;
 }
 header img
 {
@@ -41,6 +42,7 @@ border-radius: 5px;
 box-shadow: 5px 5px black; /*sombra a las cajitas*/
 color: black;
 display: inline-block;   /*rompe cajas*/
+font-family: 'Source Code Pro', sans-serif ;
 margin: 0px 30px;
 padding: 10px;
 transition:background-color 0.5s linear; /*animacion de tiempo de cambiar de sobra al estar sobre el boton con el mouse*/
@@ -59,7 +61,7 @@ header nav ul li:hover
 #seccion1
 {
 	border:10px solid red;
-
+	font-family: 'Open Sans', sans-serif;
 }
 #seccion1 article
 {
@@ -67,5 +69,7 @@ header nav ul li:hover
 	display: inline-block;
 	vertical-align: top;
 	width: 47.8%;
+	font-family: 'Source Code Pro', ;
+	font-family: 'Open Sans', sans-serif;
 }
 
