@@ -1,0 +1,36 @@
+body
+{
+/*a fuerzas de 16px es el estandar de M*/
+/*para centrar con margin */
+/*maximo ancho de 1024 a fuerzas*/
+border: 1px solid blue; 
+font-size: 16px;
+margin: 0 auto;
+max-width: 1024px;
+}
+header
+{
+	background: #B3D8EB;
+}
+header nav
+{
+	background: #0E6CB0;
+	border-radius: 5PX;	
+	padding: .2px 0px .2px 0px;
+}
+header nav ul li
+{
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+
+
+
+
+#logo
+{
+	margin-top: -250px;
+}
