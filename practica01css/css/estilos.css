@@ -68,6 +68,40 @@ form input[type="search"]
 	margin-top: 15px;
 	width: 98%;
 }
+#seccion02
+{
+	/*margin: 0 auto;*/
+}
+#seccion02 article 
+{ 
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 32.8%;
+}
+#seccion02 article input[type="button"]
+{
+	background: white;
+	border-radius: 5px;
+	color: blue;
+	margin-left: 36%;
+	
+}
+
+.OtraSeccion,.unaSeccion{
+	font-weight: bold;
+}
+.unaSeccion
+{
+	font-size: 4.5em;
+	font-weight: bold;
+
+}
+.OtraSeccion
+{
+	font-size: 2.5em;
+	font-weight: bold;
+}
 
 
 
