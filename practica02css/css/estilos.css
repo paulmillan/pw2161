@@ -70,6 +70,10 @@ margin-top: 10%;
    {
    	width: 30%;
    }
+   #terceraSeccion article img
+   {
+   	vertical-align: middle;
+   }
    #bgoffer 
    {
    	position: absolute;
