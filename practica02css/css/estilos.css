@@ -4,7 +4,7 @@ body
 	max-width: 1078px; /*El diseñador lo quiso */
 	margin: 0 auto;
 
-border: 1px solid blue;
+
 }
 
 body header nav ul li
@@ -28,6 +28,86 @@ header input
 	margin-right: -20%;
 }
 
+body footer
+{
+  background: #4666AC;
+  height: 150px;
+box-shadow: 0px -5px 5px #888888;
+
+}
+body footer section article
+{
+
+
+display: inline-block;
+margin-bottom: 2%;
+
+}
+
+#sec1f
+{
+
+}
+#sec2f
+{
+margin-top: 16px;
+
+color: white;
+
+}
+#redes
+{
+  margin-top: -2.5%;
+  margin-bottom: 4%;
+  text-align: right;
+  width: 92%;
+}
+#foart2
+{
+  margin-right: 140px;
+}
+
+#secc4 img
+{
+
+ vertical-align: bottom;
+ margin-left: 86%;
+
+}
+#fb
+{
+  /*position: absolute;*/
+
+/*right: 23%;*/
+/*top: 150%;*/
+
+  /*margin-top: -2.5%;*/
+  /*margin-bottom: 4%;*/
+  /*text-align: right;*/
+
+margin-right: 13%;
+
+}
+
+#tw
+{
+
+
+/*position: absolute;*/
+/*right: 19%;*/
+/*top: 150%;*/
+
+  margin-right: -10%;
+
+  
+
+}
+
+#artFooter
+{
+  margin-left: 30px;
+  margin-right: 85px;
+ }
 
    #paint
    {
@@ -48,7 +128,7 @@ margin-top: 10%;
    {
    	display: inline-block;
    	vertical-align: top;
-   	border: 1px solid blue;
+   
    	margin-left: 3%;
    }
    #seccion01art01
@@ -60,11 +140,57 @@ margin-top: 10%;
     	text-align: right;
     }
 
-    .numerotelefono
+#terceraSeccion article
+
+{
+  display: inline-block;
+
+  width: 23%;
+}
+
+  #span1
+  {
+font-weight: bold;
+  }
+  #art01secc03
+  {
+    margin-left: 30px;
+  }
+
+  #art02secc03
+  { vertical-align: top;
+    
+  }
+#art03secc03
+  {
+    vertical-align: top;
+    margin-right: 42px;
+  }
+
+  #art04secc03
+  {
+
+  
+
+  }
+
+ 
+  #art04secc03 input[type="e-mail"]
+  {
+    border-radius: 3px;
+  }
+
+  #art04secc03 input[type="button"]
+  {
+    color: white;
+    background: #70a900;
+    font-weight: bold;
+    border-radius: 5px;
+
+  }
+    #terceraSeccion
     {
-    	color: #FF0099; /*color rosa*/
-    	font-size: 2em;
-    	font-weight: bold;
+      border: 1px green; 
     }
    #seccion01art02
    {
@@ -81,9 +207,68 @@ margin-top: 10%;
    	top: 170px;
    	
    }
+   #span2
+   {
+    font-weight: bold;
+   }
+  
+   .colorrosa
+   {
+    color: #FF0099;
+    font-size: 1em;
+   }
+   .colorrosa2
+   {
+    color: #FF0099;
+    font-size: 1.5em;
+   }
+   .colorazul
+   {
+    color: #05baff;
+    font-size: 1em;
+   }
+   .colorverde
+   {
+    font-size: 1em;
+    color: #91ce00;
+    font-weight: bold;
+   }
+   .numerotelefono
+    {
+      color: #FF0099; /*color rosa*/
+      font-size: 2em;
+      font-weight: bold;
+      margin-right: 60px;
+    }
+    .otherGranthams
+    {
+      font-weight: bold;
+      margin-left: 20%;
+    }
+    .validHTML5
+    {
+      font-weight: bold;
+      border-radius: 5px;
+ border: 1px solid white;
+      color: white;
+      padding: .2px .2px .2px .2px;
+
+    }
    .wecanoffer
    {
    	font-size: 3.5em;
    	font-weight: bold;
    	color: #FF0099; /*color rosa*/
+   }
+   .feelingSocial
+   {
+      margin-bottom: -20%;
+      margin-right: 20%;
+      font-size: 1.5em;
+      float: right;
+
+   }
+   .join
+   {
+    vertical-align: top;
    }
