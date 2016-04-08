@@ -1,0 +1,312 @@
+body
+{
+	max-width: 1078px;
+	font-size: 16px;
+	border: 1px solid blue;
+	margin: 0 auto;
+}
+body section
+{
+	display: inline-block;
+	vertical-align: top;
+
+}
+#s3a0
+{
+    width: 100%;
+    display: inline-block;
+
+}
+#s3a0 img
+{
+    width: 98%;
+    display: inline-block;
+}
+#s1{
+width: 20%;
+/*border: 1px solid blue;*/
+}
+#logo
+{
+	    display: inline-block;
+    vertical-align: top;
+    margin-left: 38%;
+    width: 22%;
+
+}
+#noti
+{
+	float: right;
+	width: 13%;
+	margin-top: 1%;
+}
+#mes
+{
+	float: right;
+	width: 12%;
+	margin-top: 1%;
+}
+#ajustes
+{
+	float: right;
+	width: 10%;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+#mensaje3
+{
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  
+    height: 21px;
+}
+#s1a1
+{
+	color: white;
+	background: #1A4E74;
+	
+    height: 311px;
+}
+#s1a2
+{
+	margin-top: 6%;
+    border: 1px solid gray;
+}
+#s1a2 img
+{
+	
+}
+#barra
+{
+    display: inline-block;
+    width: 100%;
+    height: 39px;
+}
+#s2
+{
+	 width: 75%;
+  
+    font-size: 13px;
+    margin-left: 2%;
+
+}
+#s2 article
+{
+	display: inline-block;
+	vertical-align: top;
+	
+	
+
+}
+#s2 article img
+{
+	/*width: 40%;*/
+}
+#s2a0
+{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	margin-right: 20%;
+}
+#s2a1
+{
+	display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    background: #23A72B;
+    color: white;
+        margin-bottom: 2%;
+    height: 177px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+#s2a2
+{
+	display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 24%;
+    background: #216EA7;
+     color: white;
+        margin-bottom: 2%;
+    height: 177px;
+        border-radius: 5px;
+
+}
+#s2a3
+{
+	display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    background: #7E23A4;
+     color: white;
+         margin-bottom: 2%;
+    height: 177px;
+     text-align: center;
+         border-radius: 5px;
+
+}
+#s2a4
+{
+	display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    background: #A41C1F;
+     color: white;
+     text-align: center;
+         border-radius: 5px;
+     margin-bottom: 2%;
+    height: 177px;
+
+}
+#s3
+{
+	 width: 75%;
+    border: 1px solid green;
+    font-size: 13px;
+
+}
+#s4a1 img
+{
+    width: 84%;
+        margin-left: 7%;
+}
+#s4a1
+{
+    width: 24%;
+    background: #4B6CAB;
+    height: 226px;
+    margin-right: .5%;
+    margin-top: 1%;
+}
+#s4a2 img
+{
+width: 78%;
+    margin-left: 7%;
+}
+#s4a3 img
+{
+width: 78.2%;
+    margin-left: 7%;
+}
+#s4a4 img
+{
+width: 79%;
+    margin-left: 7%;
+}
+#s4a2
+{
+    width: 24%;
+    background: #4B6CAB;
+     height: 226px;
+     margin-right: .5%;
+     margin-top: 1%;
+
+}
+#panel0
+{
+       width: 109%;
+    display: inline-block;
+    vertical-align: top;
+    height: 102%;
+    margin-left: -10%;
+    margin-top: -3%;
+}
+#iconito
+{
+    width: 11%;
+    height: 5%;
+    vertical-align: middle;
+}
+#s4a3
+{
+    width: 24%;
+    background: #4B6CAB;
+     height: 226px;
+     margin-right: .7%;
+     margin-top: 1%;
+}
+#s4a4
+{
+    width: 24%;
+    background: #4B6CAB;
+     height: 226px;
+     margin-top: 1%;
+}
+
+.notimen
+{
+	background: #ECECEE;
+    display: inline-block;
+    float: right;
+    /* margin-top: 2%; */
+    width: 100%;
+    height: 89px;
+    vertical-align: top;
+    margin-top: 0%;
+}
+.panel
+{
+	    display: inline-block;
+    width: 92%;
+    /*background: rgba(0, 0, 255, 0.67);*/
+    color: white;
+    padding-top: 1.9%;
+    padding-bottom: 1.9%;
+    padding-left: 9%;
+
+}
+.panel2
+{
+	display: inline-block;
+    width: 96%;
+    background: #195C7F;
+    color: white;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.Progress
+{
+	/*margin-left: 2%;*/
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 3%;
+}
+.logo
+{
+	display: inline-block;
+    /* margin-top: 0%; */
+    vertical-align: top;
+    /* padding-right: 69.5%; */
+    background: #265D8E;
+    width: 100%;
+}
+.panel3
+{
+    display: inline-block;
+    width: 100%;
+    /*background: rgba(0, 0, 255, 0.67);*/
+    /*color: white;*/
+ 
+}
+.user
+{
+    font-size: 1.5em;
+    color: white;
+    margin-left: 20%;
+}
+.send
+{
+   background: #2ECCFA;
+    border-radius: 5px;
+    padding: 4% 8%;
+    color: white;
+    margin-left: 20%;
+}
