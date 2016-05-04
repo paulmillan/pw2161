@@ -1,0 +1,54 @@
+body
+{
+	margin: 0 auto;
+max-width: 1024px;
+font-size: 16px;
+border: 1px solid blue;
+text-align: center;
+
+}
+article {
+    background: #246A9E;
+    width: 64%;
+    margin: 0 auto;
+    border-radius: 7%;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 3em;
+}
+input#unInput {
+    width: 128px;
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 13px;
+}
+
+input#otroInput {
+    width: 128px;
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 13px;
+}
+
+button#miBoton {
+    margin-bottom: 15px;
+    background: #9CC7E0;
+    width: 125px;
+    height: 34px;
+    border-radius: 5px;
+}
+
+img#fotoPersona {
+    border-radius: 70px;
+    width: 29%;
+}
+div#txtApellidoUser {
+    font-family: cursive;
+    font-size: 2em;
+}
+div#txtNombreUser {
+    font-family: cursive;
+    font-size: 2em;
+}
