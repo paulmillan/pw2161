@@ -1,0 +1,89 @@
+body{
+	max-width: 1024px;
+	font-size: 16px;
+	border: 1px solid blue;
+	margin: 0 auto;
+}
+
+   td {
+       width: 176px;
+    height: 450px;
+    background: #7FFFD4;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+    border-color: #1F020C;
+    text-align: center;
+}
+article#a2 {
+    width: 70%;
+    background: aqua;
+    text-align: center;
+    margin: 0 auto;
+    height: 330px;
+}
+#soyDiv
+{
+    display: none;
+}
+
+#a1{
+        text-align: center;
+    background: aquamarine;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5%;
+    height: 143px;
+
+}
+button#enviarMarvel {
+       width: 55px;
+    height: 29px;
+    border-radius: 10px;
+    margin-top: 6%;
+    background: cyan;
+    font-weight: bold;
+}
+img#fotoHeroe {
+    width: 59%;
+    border-radius: 23px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+button#anterior {
+    width: 69px;
+    height: 29px;
+    border-radius: 10px;
+vertical-align: top;
+    background: cyan;
+    font-weight: bold;
+    margin-left: 6%;
+}
+button#siguiente {
+        width: 69px;
+    vertical-align: top;
+    height: 29px;
+    border-radius: 10px;
+    margin-top: 6%;
+    background: cyan;
+    font-weight: bold;
+    margin-left: 41%;
+    display: inline-block;
+    margin-top: 0%;
+}
+form#form1 {
+    margin-top: 6%;
+}
+input#nombre {
+       width: 118px;
+    height: 20px;
+    margin-top: -28%;
+    border-radius: 5px;
+}
+
+span.cosas {
+       margin-top: -2%;
+    display: inline-block;
+    vertical-align: top;
+}
