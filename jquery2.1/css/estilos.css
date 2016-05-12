@@ -1,0 +1,37 @@
+body
+{
+	max-width: 1024px;
+	/*border: 1px solid blue;*/
+	font-size: 16px;
+	margin: 0 auto;
+}
+h1
+{
+	text-align: center;
+}
+header nav 
+{
+	text-align: center;
+	display: none;
+}
+header nav ul li
+{
+	display: inline-block;
+	
+	/*margin-right: 5%;*/
+
+}
+header nav ul li button
+{
+	width: 89px;
+}
+h3
+{
+	text-align: center;
+}
+
+#datosUsuarios
+{
+	width: 320px;
+	margin0 auto;
+}
