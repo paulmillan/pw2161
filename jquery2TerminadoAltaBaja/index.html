@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Segundo Ejemplo JQuery</title>
+	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/jquery-2.2.3.js"></script>
+	<script src="js/eventos.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Sistema de Ejemplo</h1>
+		<nav>
+			<ul>
+				<li><button class="btn btn-default">Inicio</button></li>
+				<li><button id="btnAltas" class="btn btn-success">Alta</button></li>
+				<li><button id="btnbajas" class="btn btn-warning">Baja</button></li>
+				<li><button class="btn btn-info">Cambios</button></li>
+				<li><button class="btn btn-primary">Consultas</button></li>
+				<li><button class="btn btn-danger">Salir</button></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<article>
+				<article class="panel panel-primary" id="datosUsuario" name="datosUsuario">
+				  <article class="panel-heading">
+				    <h3 class="panel-title">Proporcione sus datos</h3>
+				  </article>
+				  <article class="panel-body">
+				    <form action="" id="frmValidaEntrada" name="frmValidaEntrada">
+				    	<input type="text" placeholder="Usuario" id="txtUsuario" name="txtUsuario" required class="form-control" autofocus>
+				    	<input type="password" placeholder="Contraseña" id="txtClave" name="txtClave" required class="form-control">
+				    	<!-- <button class="btn btn-success btn-lg btn-block">Entrar</button> -->
+				    	<input type="submit" class="btn btn-success btn-lg btn-block" value="Entrar">
+				    </form>
+				  </article>
+				</article>
+			</article>
+		</section>
+		<section>
+			<article id="altaUsuarios">
+				<h2>Alta de Usuarios</h2>
+				<form action="#" id="frmAltaUsuarios" name="frmAltaUsuarios">
+					<input type="text" class="form-control" id="txtNombreUsuario" placeholder="Usuario" name="txtNombreUsuario" required>
+					<input type="password" class="form-control" id="txtClaveUsuario" name="txtClaveUsuario" placeholder="Contraseña" required>
+					<select name="txtTipoUsuario" id="txtTipoUsuario" class="form-control">
+						<option value="vigente">Vigente</option>
+						<option value="baja">Baja</option>
+					</select>
+					<input type="text" class="form-control" id="txtDepartamento" name="txtDepartamento" placeholder="Departamento" required>
+					<input type="submit" value="Enviar" id="btnAltaUsuario" name="btnAltaUsuario" class="btn btn-success btn-lg btn-block" required>
+				</form>
+			</article>
+
+
+			<article id="bajaUsuarios">
+				<h2>Baja de Usuarios</h2>
+				<form action="#" id="frmbajaUsuarios" name="frmbajaUsuarios">
+					<input type="text" class="form-control" id="txtNombreUsuario" placeholder="Usuario" name="txtNombreUsuario" required>
+					<input type="password" class="form-control" id="txtClaveUsuario" name="txtClaveUsuario" placeholder="Contraseña" required>
+					
+					<input type="submit" value="Enviar" id="btnbajaUsuario" name="btnbajaUsuario" class="btn btn-success btn-lg btn-block" required>
+				</form>
+			</article>
+		</section>
+	</main>
+	<footer>
+		
+	</footer>
+	
+</body>
+</html>
