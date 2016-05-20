@@ -67,6 +67,11 @@ var iniciaApp=function()
 			//mostramos el formulario
 			$("#altaUsuarios").show("slow");
 	}
+	var Bajas=function()
+	{
+			//mostramos el formulario
+			$("#bajaUsuarios").show("slow");
+	}
 	var AltaUsuario=function()
 	{
 		event.preventDefault();
@@ -101,8 +106,44 @@ var iniciaApp=function()
 			}
 		});
 	}
+	var bajaUsuario=function()
+	{
+		event.preventDefault();
+		
+	
+		var datos=$("#frmbajaUsuarios").serialize();
+		var parametros="accion=bajaUsuario&"+datos+"&id="+Math.random();
+
+		$.ajax({
+					beforeSend:function(){
+				console.log("VALIDAR AL USUARIO");
+
+			},
+			cache:false,
+			type: "POST", //enviar
+			dataType: "json", //recibir
+			url: "php/funciones.php",
+			data: parametros,
+			success: function(response){
+					if(response.respuesta)
+					{
+						alert("Usuario eliminado correctamente");
+					}
+					else
+
+					{
+						alert("No se pudo guardar la información");
+					}
+				 },
+				 error: function(xhr,ajaxOptions,thrownError){
+				console.log("ALGO SALIO MAL");
+			}
+		});
+	}
 	$("#frmValidaEntrada").on("submit",validarEntrada);
 	$("#btnAltas").on("click",Altas);
+	("#btnBajas").on("click",Bajas);
 	$("#frmAltaUsuarios").on("submit",AltaUsuario);
+	$("#frmbajaUsuarios").on("submit",bajaUsuario);
 }
 $(document).on("ready",iniciaApp);

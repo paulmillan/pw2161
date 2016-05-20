@@ -36,7 +36,7 @@ h3
 {
 	text-align: center;
 }
-#altaUsuarios
+#altaUsuarios, #bajaUsuarios
 {
 display: none;
 margin: 0 auto;
@@ -45,5 +45,5 @@ width: 320px;
 #datosUsuarios
 {
 	width: 320px;
-	margin0 auto;
+margin: 0 auto;
 }
