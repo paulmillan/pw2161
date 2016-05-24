@@ -176,7 +176,7 @@ var iniciaApp = function()
 
 	$("#frmValidaEntrada").on("submit",validarEntrada);
 	$("#btnAltas").on("click",Altas);
-	$("#frmAltaUsuarios").on("submit",AltaUsuario);
+	//$("#frmAltaUsuarios").on("submit",AltaUsuario);
 	$("#btnBajas").on("click",Bajas);
 	$("#txtNombreUsuario").on("focusout",foco)
 }
