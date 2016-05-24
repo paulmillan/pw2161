@@ -1,0 +1,44 @@
+body
+{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	text-align: center;
+}
+h1{color:white;}
+header nav
+{
+	display: none;
+	text-align: center;
+}
+
+header nav ul li
+{
+	display: inline-block;
+
+}
+header {
+    background: green;
+    border-radius: 5px;
+    height: 100px;
+}
+
+header nav ul li button
+{
+	width: 89px
+}
+
+#altaUsuarios, #bajaUsuarios, #consultasUsuarios
+{
+	display: none;
+	margin: 0 auto;
+	width: 400px;
+}
+
+#datosUsuario
+{
+	margin: 0 auto;
+	width: 320px;
+	margin-top:2%;
+}
+
