@@ -1,0 +1,21 @@
+body{
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+}
+nav{
+	text-align: center;
+}
+nav ul li{
+display: inline-block;;
+
+}
+
+#altaUsuarios
+{
+	width: 350px;
+	text-align: center;
+	margin: 0 auto;
+	display: none;
+}
